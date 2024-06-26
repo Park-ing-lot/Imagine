@@ -9,7 +9,7 @@ import torch
 import tqdm
 from overrides import overrides
 from torch.nn import CrossEntropyLoss
-from transformers import RobertaForMaskedLM_ROMI as RobertaForMaskedLM
+from transformers import RobertaForMaskedLM_Imagine as RobertaForMaskedLM
 from transformers import RobertaTokenizer
 
 import adapters

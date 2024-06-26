@@ -9,7 +9,7 @@ import torch
 import tqdm
 from overrides import overrides
 from torch.nn import CrossEntropyLoss
-from transformers import GPT2LMHeadModel_ROMI
+from transformers import GPT2LMHeadModel_Imagine
 from transformers import AutoTokenizer
 
 import adapters

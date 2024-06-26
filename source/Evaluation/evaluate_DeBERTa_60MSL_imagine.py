@@ -9,7 +9,7 @@ import torch
 import tqdm
 from overrides import overrides
 from torch.nn import CrossEntropyLoss
-from transformers import DebertaV2ForMaskedLM_ROMI as DebertaV2ForMaskedLM
+from transformers import DebertaV2ForMaskedLM_Imagine as DebertaV2ForMaskedLM
 from transformers import DebertaV2Tokenizer
 
 import adapters
