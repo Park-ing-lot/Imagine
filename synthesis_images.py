@@ -106,7 +106,6 @@ contexts = get_context(data, task_name)
 pipeline = DiffusionPipeline.from_pretrained(
     "stablediffusionapi/juggernaut-xl-v5",
     torch_dtype=torch.float16,
-    allow_pickle=False
     )
 
 pipeline.load_lora_weights("openskyml/dalle-3-xl", use_safetensors=True)
